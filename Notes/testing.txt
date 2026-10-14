@@ -1,0 +1,17 @@
+Types of tests:
+
+Unit Testing 
+    Taking the unit of code and testing that individually. Creating tests that focus on specific functions or methods within a module or file.  
+    The purpose of unit testing is to identify and fix bugs in small isolated pieces of code before they can cause largeer problems in the applications. 
+    
+Integration Testing
+    Integration is the process of testing how different pieces of code work together.  (testing how modules interact with each other or how an app interacts with a database or external API)
+    Testing a whole flow altogether 
+
+End to End (E2E) Testing    
+    Process of testing an entire appication from start to finish.  Testing the user interface, backend components.  Purpose is to make sure the app works as intended in a real-world scenario.  (Simulate user interaction)
+
+API testing (similar to Integration testing)
+    Testing the various APIS or endpoints that an application exposes.  This can involve testing how the API responds to different inputs, as well as how it interacts with other parts of app.   It's to make sure the app's APIs are working as intended + handle different types of requests.  
+
+    
