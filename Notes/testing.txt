@@ -14,4 +14,13 @@ End to End (E2E) Testing
 API testing (similar to Integration testing)
     Testing the various APIS or endpoints that an application exposes.  This can involve testing how the API responds to different inputs, as well as how it interacts with other parts of app.   It's to make sure the app's APIs are working as intended + handle different types of requests.  
 
+
+Jest is a testing framework created by Facebook that learned from and incorporated successful elements of previous testing frameworks like Mocha and Jasmine.  Can be used for testing frontend + backend 
+
+    Jest uses the fs (file system) module to find test files.  It looks for files with '.test' in their filename and then imports them for testing. 
+
+    A Jest test uses the 'test' function, which takes a description string and a callback function. Inside the callback, you execute the code you want to test and use the 'expect' assertion library with matchers (like .toBe()) to validate expected outcomes. 
     
+    Example structure: test('description', () => { const result = someFunction(); expect(result).toBe(expectedValue); })
+
+    Code coverage is a metric that measures the percentage of code that has been tested. Some companies set thresholds for code coverage, requiring tests to cover a certain percentage of the codebase, and use tools to analyze which parts of the code remain untested.
