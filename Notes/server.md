@@ -41,4 +41,13 @@ Servers listen on ports and wait for incoming requests.
 
 A **port** is a number used to identify a specific communication endpoint on a computer. Ports allow network communication to reach the appropriate application or service.
 
-Common development ports include `3000`, `4000`, and `5000`, while deployed websites typically use port `80` for HTTP and port `443` for HTTPS. These ports are usually hidden in the URL when they are the default for the protocol.
+Common development ports include `3000`, `4000`, and `5000`. Deployed websites typically use port `80` for HTTP and port `443` for HTTPS. These ports are usually hidden in the URL when they are the defaults for their protocols.
+
+
+- `http.createServer()` is used to create an HTTP server, which takes a callback function with `request` and `response` parameters.
+
+- `res.writeHead()` is used to set the status code and headers, and `res.end(html)` is used to send the final HTML content back to the client.
+
+- The `start()` function creates the server using `createServer()`, listens on a specified port, and opens the server address in a browser.
+
+- The content type is set to `'text/html'` to instruct the browser to render the response as HTML.
